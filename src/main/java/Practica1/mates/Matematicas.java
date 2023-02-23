@@ -1,4 +1,4 @@
-package mates;
+package Practica1.mates;
 import java.util.Scanner;
 public class Matematicas {
     Scanner sc = new Scanner(System.in);
