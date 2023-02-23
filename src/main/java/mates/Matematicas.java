@@ -1,8 +1,7 @@
+package mates;
 import java.util.Scanner;
-
-public class Practica1 {
+public class Matematicas {
     Scanner sc = new Scanner(System.in);
-
     public void MetodoMontecarlo(){
         System.out.println("Ingrese la cantidad de puntos que quiere generar: ");
         int puntosTotales = sc.nextInt();
@@ -18,9 +17,5 @@ public class Practica1 {
         double pi = (aciertos * areaCuadrado) / puntosTotales;
         System.out.println("El valor de pi es: " + pi);
 
-    }
-    public static void main(String[] args) {
-        Practica1 p1 = new Practica1();
-        p1.MetodoMontecarlo();
     }
 }
