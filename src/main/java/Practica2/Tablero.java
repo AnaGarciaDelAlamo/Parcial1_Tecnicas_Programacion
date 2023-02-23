@@ -7,6 +7,15 @@ public class Tablero {
     private int[][] estadoSiguiente = new int[DIMENSION][DIMENSION];
 
     public void leerEstadoActual() {
+        int contador =0;
+        for (int i = 0; i < DIMENSION; i++) {
+            for (int j = 0; j < DIMENSION; j++) {
+                estadoActual[i][j] = contador;
+                contador++;
+                System.out.println(estadoActual[i][j]);
+            }
+        }
+
 
 
     }

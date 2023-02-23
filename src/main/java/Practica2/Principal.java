@@ -3,7 +3,7 @@ import java.util.concurrent.TimeUnit;
 import java.lang.InterruptedException;
 public class Principal {
     public static void main(String[] args) {
-        try{
+       /* try{
             Tablero tablero = new Tablero();
             System.out.println("SIMULACIÓN CON TABLERO LEÍDO");
             tablero.leerEstadoActual();
@@ -23,9 +23,10 @@ public class Principal {
 
         } catch (InterruptedException e) {
             System.out.println(e);
-        }
+        }*/
 
-
+Tablero tablero = new Tablero();
+tablero.leerEstadoActual();
 
     }
 }
