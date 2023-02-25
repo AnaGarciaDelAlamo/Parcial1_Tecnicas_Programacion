@@ -10,10 +10,14 @@ public class Tablero {
         for (int i = 0; i < DIMENSION; i++) {
             for (int j = 0; j < DIMENSION; j++) {
                 estadoActual[i][j] = (int) (Math.random() * 2);
-                System.out.println(estadoActual[i][j]);
             }
         }
-        System.out.println();
+        for (int i = 0; i < DIMENSION; i++) {
+            for (int j = 0; j < DIMENSION; j++) {
+                System.out.print(estadoActual[i][j]);
+            }
+            System.out.println();
+        }
 
 
     }
